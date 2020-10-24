@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_welcome"
+    android:overScrollMode="always"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarSize="10dp"
+    android:scrollbarThumbVertical="@drawable/raduis_shape_orange"
+    android:scrollbars="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="@style/TextAppearanceWelcomeTitle"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Exemple" />
+
+
+        <ImageView
+            android:id="@+id/image_food"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/raduis_shape"
+            android:contentDescription="@string/food_image_description"
+            android:padding="10dp"
+            android:src="@drawable/molokhia"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/food_name" />
+
+        <LinearLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_food">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/food_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                tools:text="served  with a stew spooned on top. the resulting dishes are also sometimes called couscous.[3]:18[4] Pearl or Israeli couscous, properly known as ptitim, is a type of pasta. " />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/calories_icon"
+            android:layout_width="248dp"
+            android:layout_height="139dp"
+            android:contentDescription="@string/calories_icon"
+            android:src="@drawable/ic_calories"
+            android:tint="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout1" />
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="252dp"
+            android:layout_height="55dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calories_icon">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/calories"
+                android:minHeight="20dp"
+                android:text="@string/calories"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/calories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:minHeight="20dp"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ingredients_icon"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/ingredients_icon"
+            android:src="@drawable/ic_ingredients"
+            android:tint="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients_icon">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingredients"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/food_ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

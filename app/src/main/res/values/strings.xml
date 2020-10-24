@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Food Detector</string>
+    <string name="welcome_skip_button">Skip</string>
+    <string name="camera_button_text">Camera</string>
+
+    <string name="image_classification_title">Food Detector</string>
+    <string name="results_header_row_name">Classification</string>
+    <string name="results_header_row_score">Score</string>
+
+    <string name="welcome_page_title">Welcome</string>
+    <string name="welcome_page_description">Food Detector Application</string>
+
+    <string name="welcome_page_Guide_title_1">Food Detector Guide</string>
+    <string name="welcome_page_Guide_description_1">Choose a Tunisian dish you want to know more about.</string>
+
+    <string name="welcome_page_Guide_title_2">Detect Food</string>
+    <string name="welcome_page_Guide_description_2">Put your phone on the food for a while until the correct results appear on the screen </string>
+
+    <string name="error_dialog_text">Sorry there was an error.</string>
+    <string name="about_button_text">about</string>
+    <string name="about_text">This App is part of preparing an end-of-study project to complete a master’s degree in software engineering at the Monastir Higher Institute of Computer Science and Mathematics (ISIMM). This project involves designing and developing an Android application to detect and classify images of different Tunisian food. This project aims to apply machine learning capabilities to deliver a useful product.</string>
+    <string name="description">Description:</string>
+    <string name="food_image_description">food image</string>
+    <string name="calories_icon">calories icon</string>
+    <string name="ingredients_icon">ingredients icon</string>
+    <string name="isimm_logo">Isimm Logo</string>
+    <string name="guide_icon">Guide Icon</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="calories">Calories:</string>
+
+</resources>

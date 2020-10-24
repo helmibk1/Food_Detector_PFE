@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_welcome">
+
+    <TextureView
+        android:id="@+id/image_classification_texture_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/header_row"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/toolbar_top_margin"
+        android:background="@color/colorPrimary"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleTextColor="@android:color/white">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/image_classification_title"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/header_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/image_classification_result_row_margin"
+        android:padding="@dimen/image_classification_result_row_padding"
+        app:layout_constraintBottom_toTopOf="@id/result_row_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/header_row_name_text"
+            style="@style/TextRowHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/header_row_name_text"
+            android:minHeight="20dp" />
+        <TextView
+            android:id="@+id/header_row_score_text"
+            style="@style/TextRowHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:minHeight="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/result_row_1"
+        style="@style/Clickable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/image_classification_result_row_margin"
+        android:background="@drawable/background"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/image_classification_result_row_padding"
+        app:layout_constraintBottom_toTopOf="@id/result_row_2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/result_row_1_name_text"
+            style="@style/TextRowResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/result_row_1_score_text"
+            android:minHeight="20dp" />
+
+        <TextView
+            android:id="@+id/result_row_1_score_text"
+            style="@style/TextRowResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:minHeight="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/result_row_2"
+        style="@style/Clickable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/image_classification_result_row_margin"
+        android:background="@drawable/background"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/image_classification_result_row_padding"
+        app:layout_constraintBottom_toTopOf="@id/result_row_3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/result_row_2_name_text"
+            style="@style/TextRowResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/result_row_2_score_text"
+            android:minHeight="20dp" />
+
+        <TextView
+            android:id="@+id/result_row_2_score_text"
+            style="@style/TextRowResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:minHeight="20dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/result_row_3"
+        style="@style/Clickable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/image_classification_result_row_margin"
+        android:background="@drawable/background"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/image_classification_result_row_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/result_row_3_name_text"
+            style="@style/TextRowResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/result_row_3_score_text"
+            android:minHeight="20dp" />
+
+        <TextView
+            android:id="@+id/result_row_3_score_text"
+            style="@style/TextRowResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:minHeight="20dp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

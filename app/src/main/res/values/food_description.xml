@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="molokhia_name">Molokhia</string>
+    <string name="molokhia_calories">300 -- 400</string>
+    <string name="molokhia_description">Mloukhia , which is also spelled mlokhia, melukhia, molokhiais a traditional dish of Tunisia and more widely of the Maghreb and the Middle East. It is a beef or lamb stew that is cooked in a very rich sauce made from dried Jew’s mallow powder with olive oil or sunflower oil.</string>
+    <string name="molokhia_ingredients">mallow powder - beef - olive oil - boiling water - tabel (Tunisian spice blend) - ground coriander - caraway - squeezed garlic - onion - tomato - tomato paste - bay leaves - fresh cilantro - salt - harissa</string>
+
+    <string name="kosksi_name">Kosksi</string>
+    <string name="kosksi_calories">250 -- 300</string>
+    <string name="kosksi_description">Couscous is a staple in most Maghreb cuisines.Tunisian couscous is one of the countless variations of this delicious and versatile dish.It is called kousksi, it is made from small durum semolina balls that are crushed and steamed.</string>
+    <string name="kosksi_ingredients">(lamb,Beef ,fish,Usban,chicken....) - couscous semolina - onions - garlic - tomato paste - harissa - ground caraway - ground coriander - chili powder - turnips - carrots - potatoes - chickpeas - green peppers - Vegetable oil - Salt - Pepper</string>
+
+    <string name="fricassee_name">Fricassee</string>
+    <string name="fricassee_calories">150 -- 200</string>
+    <string name="fricassee_description">Fricassee is a little savory fried brioche sandwich, is from the pure Tunisian culinary tradition. often filled with tuna, hard boiled egg, olives, harissa, and mashed potato. It can be made at home or in fast food restaurants. </string>
+    <string name="fricassee_ingredients">For the dough: flour - dry yeast - peanut oil - sugar - egg - salt\n For the filling: tomatoes - potatoes - olive oil - harissa - Salt - Pepper - canned tuna - boiled eggs </string>
+
+    <string name="lablabi_name">Lablabi</string>
+    <string name="lablabi_calories">300 -- 450</string>
+    <string name="lablabi_description">Lablabi is a Tunisian soup, traditionally eaten for breakfast. It is a hearty meal, containing chickpeas that are in a flavored thin soup, and it is served over pieces of stale bread and topped with a poached egg and a seasoned dressing. Typically, it is garnished with tuna and olives and it is commonly found in restaurants throughout Tunisia. </string>
+    <string name="lablabi_ingredients">dried chickpeas - baking soda - slices bread - ground cumin - ground caraway - harissa - lemon - garlic - salt - olive oil - white vinegar - eggs - canned tuna</string>
+
+    <string name="brik_name">Brik</string>
+    <string name="brik_calories">500 -- 650</string>
+    <string name="brik_description">Tuna briks are an iconic recipe of traditional Tunisian cuisine. The other name of briks is malsouka. Malsouka is of Tunisian origin. It is a very fine sheet of dough which is partially cooked. There are dozens of briks recipes, some of them often seen on the tables of iftar, the first meal after sunset during the month of Ramadan. </string>
+    <string name="brik_ingredients">brick dough - potato - eggs - canned tuna - cheese - parsley - mint leaves - salt - pepper - vegetable oil - lemon </string>
+
+    <string name="chappati_name">Chappati</string>
+    <string name="chappati_calories">500 -- 600</string>
+    <string name="chappati_description">Tunisian chapati is a type of sandwich that originated in Tunisia. It consists of a flat round tabouna bread, and usually a garnish of turmeric omelet, crumbled tuna, potatoes, harissa, olive oil as well as onions and chopped parsley and sometimes cheese. </string>
+    <string name="chappati_ingredients">For the dough: - flour - olive oil - baker\'s yeast - salt\n For the filling: - eggs - potatoes - cheese fondue - harissa - tuna - onion - parsley - turmeric - salt - frying oil</string>
+
+    <string name="zalabia_name">Zalabia</string>
+    <string name="zalabia_calories">200</string>
+    <string name="zalabia_description">Zalabia, is a spiral-shaped fritter dessert that is very popular in Tunisia, india, Pakistan, Bangladesh, the Middle East. it is known by different names depending on its country of origin, but it is generally the same form. </string>
+    <string name="zalabia_ingredients">flour - rice flour - baking powder - cup yogurt - saffron - cardamom - sugar - rose water - lemon juice - honey - cardamom seeds</string>
+
+    <string name="baklawa_name">Baklawa</string>
+    <string name="baklawa_calories">150 -- 200</string>
+    <string name="baklawa_description">Many layers of filo dough, separated with melted butter and vegetable oil, are laid in the pan to get Baklava (Baklawa). A layer of chopped nuts usually walnuts or pistachios, we can also use hazelnuts and place it on top, then more layers of filo. So to day we will show you how to make Baklava. </string>
+    <string name="baklawa_ingredients">filo pastry - Sugar - Butter - Pistachio - Walnut kernel - Hazelnut - Orange tree Flower water - orange blossom water</string>
+
+    <string name="makroudh_name">Makroudh</string>
+    <string name="makroudh_calories">300 -- 350</string>
+    <string name="makroudh_description">Makroudh is a cookie from the cuisines of the Maghreb. It is filled with dates and nuts or almond paste, that has a diamond shape – the name derives from this characteristic shape.The dough is made with a combination of semolina and flour, which gives the pastry a very specific texture and flavor. Makroudh can be fried in oil or oven-baked. </string>
+    <string name="makroudh_ingredients">semolina - flour - sesame - sugar - lemon juice - butter - salt - olive oil - vegetable oil - date paste</string>
+
+    <string name="kaak_warka_name">Kaak warka</string>
+    <string name="kaak_warka_calories">100</string>
+    <string name="kaak_warka_description">Kaak warka are a kind of Tunisian sweets of Andalusian origin, the flower that Andalusians brought to the city of Zaghouan. The shape of these sweets is usually round. And its origin goes back to Andalusian families who fled from the oppression of the Spanish rulers to Tunisia. </string>
+    <string name="kaak_warka_ingredients">flour - butter - rose water - fine almond powder - icing sugar - salt - water</string>
+
+</resources>

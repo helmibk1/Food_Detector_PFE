@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#473838</color>
+    <color name="colorPrimaryDark">#F1997D</color>
+    <color name="pink">#92579E</color>
+    <color name="orange">#ED914B</color>
+    <color name="yellow">#FBEA4D</color>
+    <color name="red">#db2c49</color>
+
+    <color name="colorPrimaryLight">#433E3E</color>
+    <color name="colorPrimaryDarkLight">#D5A495</color>
+    <color name="pinkLight">#B28DBA</color>
+    <color name="orangeLight">#FBBB8A</color>
+    <color name="yellowLight">#F6EB88</color>
+    <color name="redLight">#F87B90</color>
+</resources>
